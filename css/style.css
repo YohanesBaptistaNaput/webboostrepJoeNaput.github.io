@@ -1,0 +1,54 @@
+:root {
+  --mainColor: #f0ebe3;
+  --secondaryColor: #e4dccf;
+  --acsenColor: #576f72;
+}
+
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* HERO */
+#hero {
+  color: var(--acsenColor);
+  min-height: 100vh;
+  padding-top: 75px;
+}
+
+.nav-dark {
+  background-color: var(--secondaryColor) !important;
+  z-index: 10;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#About {
+  min-height: 500px;
+  width: 100%;
+  color: var(--acsenColor);
+  background-color: var(--secondaryColor);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+#software {
+  color: var(--acsenColor);
+  width: 100%;
+  min-height: 500px;
+}
+
+/* portofolio */
+
+#port .container {
+  padding: 80px 10px;
+  width: 100%;
+  color: var(--acsenColor);
+  min-height: 500px;
+}
+
+/*akhir portofolio*/
